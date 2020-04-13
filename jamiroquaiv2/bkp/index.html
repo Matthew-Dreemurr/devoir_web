@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<title>Jamiroquai</title>
+
+	</head>
+<body>
+    <nav class="topnav">
+        <a href="#" class="logo"><img src="src/logo.svg" alt="Logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </nav>
+
+		<!-- video fond -->
+
+    <div class="video-back">
+        <video poster="assets/screenshot1.jpg" autoplay muted loop class="vidbacking">
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+        <h1>Jamiroquai</h1>
+        <p>Lorem</p>
+    </div>
+    
+	<!-- balise 1 -->
+	
+		<div class="container"> </div>
+		<section>
+		  <div class="container flex">
+			<div class="colonne">
+					<div class="face face1">
+						<div class="bloc">							
+							<img src="src/box-1.png" alt="Jamiroquai">
+								<h2>Jamiroquai</h2>
+						</div>
+					</div>
+						<div class="face face2">
+							<div class="bloc">
+									<p>Jamiroquai est un groupe britannique, mené par le chanteur Jay Kay d'origine portugaise de par son père. 
+										C'est à Londres, au début des années 1990, qu'il se fait une place dans le mouvement acid jazz en plein essor. 
+										Jamiroquai impose très vite son style parmi les groupes de l'époque (Incognito, the Brand New Heavies, Galliano ou Corduroy). 
+										Aujourd'hui, le groupe a acquis une renommée mondiale, tout en ayant su faire évoluer sa musique.</p>
+							</div>
+					</div>
+			</div>
+				<!-- balise 2 -->
+
+		    <div class="colonne">
+					<div class="face face1">
+						<div class="bloc">							
+							<img src="src/box-2.png" alt="ason Kay">
+								<h2>Jason Kay</h2>
+						</div>
+					</div>
+						<div class="face face2">
+							<div class="bloc">
+									<p>Jason Kay, dit Jay Kay, dit Jamiroquai
+										Auteur-compositeur-interprète de soul et de funk britannique (Healing, Angleterre, 1970).
+
+										Son premier album, sorti en 1993, finit numéro un en Grande-Bretagne, tandis que les singles Too Young To Die et When You Gonna Learn deviennent les piliers d'une tournée française triomphale. Souvent comparé à Stevie Wonder, le jeune gringalet blanc a su, à l'image de Mick Hucknal de Simply Red, développer un style de soul à l'anglaise. Avec des paroles écolos et naïves, Jay Kay ratisse large, mais son second disque n'a pas obtenu les faveurs du grand public.</p>
+							</div>
+					</div>
+			</div>
+				
+			  	<!-- balise 3 
+
+			  
+			 	 <div class="colonne">
+					<div class="face face1">
+						<div class="bloc">							
+							<img src="src/box-2.png" alt="image">
+								<h2>Jason Kay</h2>
+						</div>
+					</div>
+						<div class="face face2">
+							<div class="bloc">
+									<p>Jamiroquai est un groupe britannique, mené par le chanteur Jay Kay d'origine portugaise de par son père. 
+										C'est à Londres, au début des années 1990, qu'il se fait une place dans le mouvement acid jazz en plein essor. 
+										Jamiroquai impose très vite son style parmi les groupes de l'époque (Incognito, the Brand New Heavies, Galliano ou Corduroy). 
+										Aujourd'hui, le groupe a acquis une renommée mondiale, tout en ayant su faire évoluer sa musique.</p>
+							</div>
+					</div>
+			</div>
+		  </div>-->
+			
+		</section> 
+
+			
+			
+			<!-- script video fond -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="dist/jquery.vidbacking.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.video-back').vidbacking({
+                'masked': true
+            });
+        });
+    </script>
+</body>
+</html>
+<!-- code pour la vidéo en font utiliser https://github.com/souravm84/vidbacking -->
